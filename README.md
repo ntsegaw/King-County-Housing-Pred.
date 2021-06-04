@@ -10,12 +10,12 @@ The first step in the prediction process is to perform an exploratory data analy
 
 With the data on hand, there were many homes listed without bedrooms or bathrooms. In order to fix this values were added to these homes based on their indoor square foot percentile value. Four groups were used to replace the 0-values. Those at the 25th, 50th, 75th, and 99th percentiles. 
 
-Format: ![Heat Mapp](https://raw.githubusercontent.com/ntsegaw/kk-housing/master/images/Unknown-2.png)
+![SQFT](https://raw.githubusercontent.com/ntsegaw/kk-housing/master/images/Unknown-2.png)
 
 Next came the investigation into what features could be important. A correlation heat map was used to find important relationships and was scrutinized to avoid any multicolinearity issues. 
 
 
-Format: ![Heat Mapp](https://raw.githubusercontent.com/ntsegaw/kk-housing/master/images/Unknown-1.png)
+![Heat Map](https://raw.githubusercontent.com/ntsegaw/kk-housing/master/images/Unknown-1.png)
 
 After an investigation of existing features, new features were scrutinized through methods such as linear regression to better understand what factors most accurately contribute to the price of a home in King County, WA.  
 
